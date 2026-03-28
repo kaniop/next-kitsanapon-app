@@ -15,8 +15,7 @@ export default function Home() {
       
       
       <p className="text-gray-500 text-[24px] mb-12 leading-relaxed max-w-xl">
-        I design and build functional, beautiful interfaces that 
-        provide a seamless user experience.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In praesentium sequi laboriosam perferendis quis inventore deserunt, adipisci sapiente architecto quasi ullam aut, alias aspernatur eius, veniam libero vitae at repudiandae.
       </p>
       
       <div className="flex gap-16">
