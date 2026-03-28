@@ -32,7 +32,7 @@ export default function ProCard() {
            height: '325px',
             borderRadius: '20px' }}>
         <Image 
-          src="/react-logo.png.png" 
+          src="/picb.jpg" 
           alt="Profile" 
           fill 
           className="object-cover" 
