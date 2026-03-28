@@ -9,18 +9,27 @@ import { HiOutlineAcademicCap } from "react-icons/hi2";
 import { BiCodeAlt } from "react-icons/bi";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { RiFileList3Line } from "react-icons/ri"; 
+import { 
+  FiHome, 
+  FiUser, 
+  FiBook, 
+  FiList, 
+  FiBriefcase, 
+  FiTerminal, 
+  FiMessageSquare 
+} from "react-icons/fi";
 
 export default function Navbar() {
   const pathname = usePathname();
 
   const menus = [
-    { id: 'home', icon: AiOutlineHome, link: '/' },            
-    { id: 'about', icon: AiOutlineUser, link: '/aboutme' },      
-    { id: 'edu', icon: HiOutlineAcademicCap, link: '/eduexp' }, 
-    { id: 'spec', icon: RiFileList3Line, link: '/spec' },        
-    { id: 'projects', icon: AiOutlineProject, link: '/projects' },
-    { id: 'skills', icon: BiCodeAlt, link: '/skills' },          
-    { id: 'contact', icon: MdOutlineMailOutline, link: '/contactme' }, 
+    { id: 'home', icon: FiHome, link: '/' },            
+    { id: 'about', icon: FiUser, link: '/aboutme' },      
+    { id: 'edu', icon: FiBook, link: '/eduexp' }, 
+    { id: 'spec', icon: FiList, link: '/spec' },        
+    { id: 'projects', icon: FiBriefcase, link: '/projects' },
+    { id: 'skills', icon: FiTerminal, link: '/skills' },          
+    { id: 'contact', icon: FiMessageSquare, link: '/contactme' }, 
   ];
 
   return (
